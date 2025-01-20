@@ -1,0 +1,29 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    border: 1px solid black;
+    margin: 100px;
+    height: 400px;
+    width: 400px;
+}
+
+.grid-unit {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+}
+
+.robot {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.box {
+    background-color: maroon;
+    height: 50px;
+    width: 50px;
+}
+
